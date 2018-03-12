@@ -30,6 +30,7 @@ public class SentenceDetectExample {
 	 * @throws IOException
 	 */
 	public void sentenceDetect() throws InvalidFormatException, IOException {
+
 		String paragraph = "This is a statement. This is another statement. Now is an abstract word for time, that is always flying.";
 
 		// refer to model file "en-sent,bin", available at link

@@ -16,6 +16,7 @@ import opennlp.tools.util.TrainingParameters;
 public class SentenceDetectorTrainingExample {
 
 	public static void main(String[] args) {
+
 		try {
 			new SentenceDetectorTrainingExample().trainSentDectectModel();
 		} catch (IOException e) {
@@ -32,6 +33,7 @@ public class SentenceDetectorTrainingExample {
 	 * @throws IOException
 	 */
 	public void trainSentDectectModel() throws IOException {
+
 		// directory to save the model file that is to be generated, create this
 		// directory in prior
 		File destDir = new File("custom_models");

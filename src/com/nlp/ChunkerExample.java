@@ -17,6 +17,7 @@ import opennlp.tools.postag.POSTaggerME;
 public class ChunkerExample {
 
 	public static void main(String[] args) {
+
 		try {
 			// test sentence
 			String[] tokens = new String[] { "Most", "large", "cities", "in", "the", "US", "had", "morning", "and",

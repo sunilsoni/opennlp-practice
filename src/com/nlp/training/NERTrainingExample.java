@@ -31,6 +31,7 @@ public class NERTrainingExample {
 		// reading training data
 		InputStreamFactory in = null;
 		try {
+
 			in = new MarkableFileInputStreamFactory(new File("AnnotatedSentences.txt"));
 		} catch (FileNotFoundException e2) {
 			e2.printStackTrace();

@@ -27,6 +27,7 @@ public class LanguageDetectorMEExample {
 
 		// loading the training data to LanguageDetectorSampleStream
 		LanguageDetectorSampleStream sampleStream = null;
+
 		try {
 			InputStreamFactory dataIn = new MarkableFileInputStreamFactory(
 					new File("training-data" + File.separator + "DoccatSample.txt"));

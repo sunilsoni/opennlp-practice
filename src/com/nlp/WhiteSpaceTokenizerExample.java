@@ -10,6 +10,7 @@ import opennlp.tools.tokenize.WhitespaceTokenizer;
 public class WhiteSpaceTokenizerExample {
 
 	public static void main(String[] args) {
+
 		Tokenizer tokenizer = WhitespaceTokenizer.INSTANCE;
 		String tokens[] = tokenizer.tokenize("John is 26 years old.");
 

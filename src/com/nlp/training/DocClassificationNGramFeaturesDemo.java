@@ -28,6 +28,7 @@ public class DocClassificationNGramFeaturesDemo {
 	public static void main(String[] args) {
 
 		try {
+
 			// read the training data
 			InputStreamFactory dataIn = new MarkableFileInputStreamFactory(
 					new File("train" + File.separator + "en-movie-category.train"));

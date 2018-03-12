@@ -16,6 +16,7 @@ import opennlp.tools.util.Span;
 public class NameFinderExample {
 
 	public static void main(String[] args) {
+
 		// find person name
 		try {
 			System.out.println("-------Finding entities belonging to category : person name------");
@@ -41,6 +42,7 @@ public class NameFinderExample {
 	 * @throws IOException
 	 */
 	public void findName() throws IOException {
+
 		InputStream is = new FileInputStream("en-ner-person.bin");
 
 		// load the model from file

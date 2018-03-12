@@ -14,6 +14,7 @@ import opennlp.tools.tokenize.TokenizerModel;
 public class TokenizerModelExample {
 
 	public static void main(String[] args) {
+
 		InputStream modelIn = null;
 
 		try {

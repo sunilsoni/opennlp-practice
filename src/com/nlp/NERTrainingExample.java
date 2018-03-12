@@ -82,6 +82,7 @@ public class NERTrainingExample {
 		System.out.println("Finding types in the test sentence..");
 		Span[] names = nameFinder.find(testSentence);
 		System.out.println("names length: " + names.length);
+
 		for (Span name : names) {
 			String personName = "";
 			for (int i = name.getStart(); i < name.getEnd(); i++) {

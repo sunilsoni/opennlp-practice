@@ -10,6 +10,7 @@ import opennlp.tools.tokenize.Tokenizer;
 public class SimpleTokenizerExample {
 
 	public static void main(String[] args) {
+
 		Tokenizer tokenizer = SimpleTokenizer.INSTANCE;
 		String tokens[] = tokenizer.tokenize("John is 26 years old.");
 
