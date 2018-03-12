@@ -13,9 +13,6 @@ import opennlp.tools.util.MarkableFileInputStreamFactory;
 import opennlp.tools.util.PlainTextByLineStream;
 import opennlp.tools.util.TrainingParameters;
 
-/**
- * @author tutorialkart
- */
 public class SentenceDetectorTrainingExample {
 
 	public static void main(String[] args) {

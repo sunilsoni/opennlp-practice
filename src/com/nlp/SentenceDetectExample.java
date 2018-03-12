@@ -12,7 +12,6 @@ import opennlp.tools.sentdetect.SentenceModel;
 /**
  * Sentence Detection Example in openNLP using Java
  * 
- * @author tutorialkart
  */
 public class SentenceDetectExample {
 

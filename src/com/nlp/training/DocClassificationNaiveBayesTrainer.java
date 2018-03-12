@@ -22,7 +22,6 @@ import opennlp.tools.util.TrainingParameters;
  * oepnnlp version 1.7.2 Training of Document Categorizer using Naive Bayes
  * Algorithm in OpenNLP for Document Classification
  * 
- * @author www.tutorialkart.com
  */
 public class DocClassificationNaiveBayesTrainer {
 

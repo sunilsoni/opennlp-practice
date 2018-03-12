@@ -12,7 +12,6 @@ import opennlp.tools.util.Span;
  * This class demonstrates how to use NameFinderME class to do Named Entity
  * Recognition/Extraction tasks.
  * 
- * @author tutorialkart.com
  */
 public class NameFinderExample {
 

@@ -23,7 +23,6 @@ import opennlp.tools.util.TrainingParameters;
 /**
  * NER Training in OpenNLP with Name Finder Training Java Example
  * 
- * @author www.tutorialkart.com
  */
 public class NERTrainingExample {
 

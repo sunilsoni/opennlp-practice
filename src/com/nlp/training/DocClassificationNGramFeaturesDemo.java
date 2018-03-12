@@ -22,7 +22,6 @@ import opennlp.tools.util.TrainingParameters;
  * oepnnlp version 1.7.2 Usage of NGram features for Document Classification in
  * OpenNLP
  * 
- * @author www.tutorialkart.com
  */
 public class DocClassificationNGramFeaturesDemo {
 

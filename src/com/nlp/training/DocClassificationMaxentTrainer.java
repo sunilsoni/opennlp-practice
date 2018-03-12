@@ -20,7 +20,6 @@ import opennlp.tools.util.TrainingParameters;
  * oepnnlp version 1.7.2 Training of Document Categorizer using Maximum Entropy
  * Model in OpenNLP
  * 
- * @author www.tutorialkart.com
  */
 public class DocClassificationMaxentTrainer {
 
